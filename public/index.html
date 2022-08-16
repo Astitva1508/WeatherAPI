@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather API</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Welcome to the Weather API Platform</h1>
+        </header>
+        <div class="content">
+            <p>Enter the name of the city in the box</p>
+            <div id="input">
+                <input type="text" placeholder="Enter the name of city" class="cityName">
+            </div>
+            <button class="addcity">+</button>
+
+            <button type="submit" class="submit">Request Info</button>
+        </div>
+        <div id="output">
+        </div>
+        <footer>
+            &#169; Weather API
+        </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js" integrity="sha512-odNmoc1XJy5x1TMVMdC7EMs3IVdItLPlCeL5vSUPN2llYKMJ2eByTTAIiiuqLg+GdNr9hF6z81p27DArRFKT7A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>"></script>
+        <script src="index.js"></script>
+    </main>
+</body>
+</html>
